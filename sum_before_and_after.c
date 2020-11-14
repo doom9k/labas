@@ -5,7 +5,7 @@
 #include "index_last_zero.h"
 
 int sum_before_and_after(int array[100], int size){
-  int sum;
+  int sum=0;
   int i_last = index_last_zero(array,size);
   int i_first = index_first_zero(array);
   for (int k=0;k<i_first;k++){
